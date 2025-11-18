@@ -1,0 +1,21 @@
+Here is a simple and clear C program that takes a student's marks as input and prints whether the student passed or failed:
+
+#include <stdio.h>
+
+int main() {
+    int marks;
+
+  
+    printf("Enter student's marks: ");
+    scanf("%d", &marks);
+
+    
+    if (marks >= 40) {
+        printf("Passed\n");
+    } else {
+        printf("Failed\n");
+    }
+
+    return 0;
+}
+
