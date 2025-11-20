@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char gopal[10];
+    printf("enter gopal string\n");
+    scanf("%s",&gopal);
+    strcat(gopal,"gopal");
+    printf("%s",gopal);
+    
+}
+
+    
+   
