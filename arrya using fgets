@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char priya [20];
+    printf("enter an array");
+    fgets(priya,sizeof(priya),stdin);
+    printf("%s",priya);
+}
+    
+   
+    
+    
