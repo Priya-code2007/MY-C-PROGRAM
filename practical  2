@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+#define MAX 100
+void main()
+{
+    char description[MAX];
+    char keyword [100];
+    int len;
+    printf("enter the course disciption:\n");
+    scanf("%s",descripton);
+    len=sterin(description);
+    printf("enter keyword to search:");
+    scanf("%s",keyword);
+    if(strstr(description,keyword))
+    printf("keyword'%s'found in the %S course description\n,keyword,description);
+    else
+    printf("keyword%s not found in the %s course description\n",keyword,description);
+}
+    
+}
+
+
+    
+}
